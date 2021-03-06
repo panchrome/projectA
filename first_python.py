@@ -4,4 +4,6 @@ import numpy as np
 def do_welcome(name):
     print ('Hello,{}'.format(name))
 
-do_welcome('Saumya Pandey')
+
+for i in np.arange(1,10):
+    print (i, do_welcome('Saum Pan')
